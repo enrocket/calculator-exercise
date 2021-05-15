@@ -19,5 +19,6 @@ body {
 }
 .calc-buttons {
     width: 400px;
+    background-color:#232F3E;
     border: 2px solid green;
 }
