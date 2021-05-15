@@ -16,9 +16,20 @@ body {
     width: 400px;
     background-color: #000;
     border: 2px solid blue;
-    color: white:
+    color: white;
 }
 .calc-buttons {
     width: 400px;
     border: 2px solid green;
+    margin: 0px;
+    padding: 0px;
+}
+
+.calc-button{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(190, 190, 190);
+    border: 2px solid black;
 }
