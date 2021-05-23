@@ -10,26 +10,57 @@ body {
 }
 .wrapper {
     width: 400px;
-    border: 2px solid red;
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
 }
 .screen {
     width: 400px;
-    background-color: #000;
-    border: 2px solid blue;
     color: white;
+    font-size: 40px;
+    text-align: right;
+    padding: 20px 10px;
 }
 .calc-buttons {
     width: 400px;
-    border: 2px solid green;
     margin: 0px;
     padding: 0px;
 }
 
+.calc-button-row {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
 .calc-button{
-    width: 100px;
     height: 100px;
     margin: 0px;
     padding: 0px;
     background-color: rgb(190, 190, 190);
-    border: 2px solid black;
+    font-size: 40px;
+    border: none;
+    flex-basis: 24.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.calc-button:last-child{
+    background-color: #cafff5;
+}
+.calc-button:hover{
+        background-color: #ebebeb;
+}
+
+.calc-button:active{
+    background-color: #bbbcbe;
+}
+
+.calc-button:last-child{
+    background-color: #cafff5;
+}
+
+.doble {
+    flex-basis: 49.7%;
+}
+
+.triple {
+   flex-basis: 74.8%;
 }
